@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    background-color:orangered;
+    padding:0px 16px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+li:last-child{
+    float:right;
+}
+
+@media screen and (max-width: 600px) {
+    .menu li {
+      float: none;
+      text-align: center;
+    }
+    ul li a:hover{
+        display: block;
+        background-color: black;
+        color: white;
+    }
+    
+  }
+
+
+
+
