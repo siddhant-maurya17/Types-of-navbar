@@ -10,8 +10,12 @@
    
    .unordered{
        list-style-type:none;
-       width: 100px;
-       background-color: #bf1e1e;
+       width: 15%;
+       height:100%;
+       background-color: #ffffff;
+       border:1px solid black;
+       position:fixed;
+       overflow: auto;
    }
    
    .unordered li a{
@@ -20,14 +24,34 @@
        text-decoration:none;
        padding: 0.8rem 1rem;
        color:#000;
+   }
+   .unordered li{
        text-align: center;
+       /* border-bottom:1px solid #000; */
+   }
+   .unordered li:last-child{
+       border-bottom: none;
+   }
+   .active{
+       background-color: rgb(252, 165, 5);
+       color:white;
    }
    
-   .unordered li a:hover{
+   .unordered li a:hover:not(.active){
        background-color: #000;
        color:#fff;
-       
    }
+   
+   .text{
+       margin-left: 15%;
+       text-align: center;
+       padding:1px 16px;
+       height:1000px;
+   }
+    .text p{
+       margin-top: 50px;
+    }
+   
    
    
    
