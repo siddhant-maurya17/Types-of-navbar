@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+       background: #d3cdcd;
+   }
+   
+   .unordered{
+       list-style-type:none;
+       width: 100px;
+       background-color: #bf1e1e;
+   }
+   
+   .unordered li a{
+       display: block;
+       font-size:medium;
+       text-decoration:none;
+       padding: 0.8rem 1rem;
+       color:#000;
+       text-align: center;
+   }
+   
+   .unordered li a:hover{
+       background-color: #000;
+       color:#fff;
+       
+   }
+   
+   
+   
+   
+   
